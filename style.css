@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'prata';
+    
+
+}
+p{
+    
+    color:rgba(200, 200, 200, 0.504);
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+a{
+    color:rgba(200, 200, 200, 0.504);
+    text-decoration: none;
+    margin:25px;
+}
+button{
+    background-color: yellow;
+    color: black;
+    width: 120px;
+    height: 40px;
+    border: none;
+    margin-top: -10px;
+    margin-left:50px;
+}
+button:hover{
+    background-color: bisque;
+}
+.container{
+    margin-left: 85px;
+    margin-top: 60px;
+}
+.titulo{
+    color:white;
+    font-family:'prata';
+    font-size: 50px;
+}
+.texto{
+    color:rgba(200, 200, 200, 0.504);
+    font-family: 'prata';
+    font-size: 15px;
+    width: 450px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+    margin-left: -30px;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+   
+}
+img{
+    width: 400px;
+}
+.titulo-card{
+    color:white;
+    font-family: 'prata';
+    font-weight:lighter;
+    
+}
+.texto-card{
+    width: 300px;
+}
+.card2{
+    margin-left: 100px;
+}

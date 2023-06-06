@@ -6,24 +6,18 @@
 body{
     background-color: black;
     font-family: 'prata';
-    
-
 }
 p{
-    
     color:rgba(200, 200, 200, 0.504);
-
 }
 header{
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
-    
+    margin-top: 30px; 
 }
 ul{
     display: flex;
     list-style: none;
-
 }
 a{
     color:rgba(200, 200, 200, 0.504);
@@ -67,25 +61,32 @@ button:hover{
     margin-top: 50px;
     margin-right: 40px;
 }
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 50px;
-   
-}
 img{
-    width: 400px;
+    width: 500px;
 }
-.titulo-card{
+
+.cards{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-around; 
+}
+.textos-card{
+    display:flex;
+    justify-content: space-around;
+    margin-top:15px;
+    
+}
+.texto-card1{
     color:white;
     font-family: 'prata';
     font-weight:lighter;
+    width: 300px;   
+}
+.texto-card2{
+    font-weight:lighter;
+    width: 300px; 
     
+    color:white;
+    font-family: 'prata';    
 }
-.texto-card{
-    width: 300px;
-}
-.card2{
-    margin-left: 100px;
-}
+

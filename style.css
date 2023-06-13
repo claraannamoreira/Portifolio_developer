@@ -1,28 +1,30 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     background-color: black;
-    font-family: 'prata';
+    color:white;
+    
 }
 p{
     color:rgba(200, 200, 200, 0.504);
 }
 header{
     display: flex;
-    justify-content: space-around;
-    margin-top: 30px; 
+    justify-content: space-between;
+      
 }
 ul{
     display: flex;
     list-style: none;
+    justify-content: space-around;
 }
 a{
-    color:rgba(200, 200, 200, 0.504);
-    text-decoration: none;
-    margin:25px;
+ color:rgba(200, 200, 200, 0.504);
+   margin: 40px;
+   text-decoration: none;
 }
 button{
     background-color: yellow;
@@ -36,57 +38,51 @@ button{
 button:hover{
     background-color: bisque;
 }
-.container{
-    margin-left: 85px;
-    margin-top: 60px;
-}
-.titulo{
-    color:white;
-    font-family:'prata';
+h1{
+    font-family: 'prata';
+    font-size:18px;
     font-size: 50px;
 }
-.texto{
-    color:rgba(200, 200, 200, 0.504);
-    font-family: 'prata';
-    font-size: 15px;
-    width: 450px;
+.container{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text{
+    width: 550px;
+    margin-top: 50px;
+    
+}
+p{
+    margin-top: 15px;
     text-align: justify;
-    margin-top: 10px;
 }
 .logos{
     display: flex;
-    justify-content: space-around;
-    height: 20px;
-    margin-left: -30px;
+    justify-content: space-between;
     margin-top: 50px;
-    margin-right: 40px;
+    margin-bottom: 50px;
 }
-img{
-    width: 500px;
-}
-
 .cards{
-    margin-top: 30px;
-    display:flex;
-    justify-content: space-around; 
+    display: flex;
+    justify-content:space-between ;
 }
 .textos-card{
-    display:flex;
-    justify-content: space-around;
-    margin-top:15px;
-    
+    display: flex;
+    gap: 80px;
 }
 .texto-card1{
-    color:white;
-    font-family: 'prata';
-    font-weight:lighter;
-    width: 300px;   
+    width: 800px; 
 }
 .texto-card2{
-    font-weight:lighter;
-    width: 300px; 
-    
-    color:white;
-    font-family: 'prata';    
+    width: 800px;
 }
-
+.content{
+    margin-top: 30px;
+    background-color:rgba(104, 101, 105, 0.315);
+    color: white;
+   
+}
+.texto-content{
+    text-align:left;
+}
